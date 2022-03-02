@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product App</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css"> <!--  CDN BOOTSRAP -->
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a href="/" class="navbar-brand">Product App</a>
+  </nav>
+
+  <div class="container">
+    <!-- APPLICATION -->
+    <div id="App" class="row pt-5"> <!-- class: fila padding top 5 -->
+      <div class="col-md-4"> <!-- 4 columnas de bootstrap -->
+        <!-- formulario -->
+        <div class="card">
+          <div class="card-header">
+            <h4>Add A Product</h4>
+          </div>
+          <form id="product-form" class="card-body"> <!-- agregar productos -->
+            <div class="form-group"> <!-- separa los input -->
+              <input type="text" id="name" placeholder="Product Name" class="form-control">  <!-- bootstrap -->
+            </div>
+            <div class="form-group">
+              <input type="number" id="price" step="0.01" placeholder="Product price" class="form-control"> <!-- step acepta decimales -->
+            </div>
+            <div class="form-group">
+              <input type="number" id="year" min="1900" max="2030" step="1" value="2018"  class="form-control">
+            </div>
+            <input type="submit" value="Save" class="btn btn-primary btn-block"> <!-- submit dispara evento del formulario cuando preciono ENVIAR -->
+          </form>
+        </div>
+      </div> 
+      
+          <!-- LISTA DE PRODUCTOS  * 8 columnas de bootstrap -->
+            <div id="product-list" class="col-md-8">
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
