@@ -1,6 +1,6 @@
 # product_app_example in Javascript
 
-https://jotarexx.github.io/product_app_example/
+Link: https://jotarexx.github.io/product_app_example/
 
 
 Application example to add and subtract products and prices
