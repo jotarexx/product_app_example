@@ -1,5 +1,5 @@
 
-class Product{ // como van a lucir los productos internamente en la aplicacion
+class Product{ 
   constructor (name, price, year){
   this.name = name;   // de este producto, su nombre va a ser asignado del nom que le paso al constructor 
   this.price = price;  // este prod, su precio sera asignado del precio que le paso al constructor
