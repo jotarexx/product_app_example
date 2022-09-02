@@ -3,7 +3,7 @@ class Product{
   constructor (name, price, year){
   this.name = name;   
   this.price = price; 
-  this.year = year;   // este prod, su año sera asignado del año que le paso al constructor
+  this.year = year;   
   }
 }
 
