@@ -7,7 +7,7 @@ class Product{
   }
 }
 
-class UI { //User interfase, interactua con HTML, la interf es la que va a acceder al HTML para laterarlo
+class UI { 
   addProduct(product) { // recibe un parametro que es un producto
     const productList =  document.getElementById ('product-list')
     const element = document.createElement('div')  
