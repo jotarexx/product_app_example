@@ -8,7 +8,7 @@ class Product{
 }
 
 class UI { 
-  addProduct(product) { // recibe un parametro que es un producto
+  addProduct(product) { 
     const productList =  document.getElementById ('product-list')
     const element = document.createElement('div')  
     
