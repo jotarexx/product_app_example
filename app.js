@@ -22,7 +22,7 @@ class UI {
         </div> 
       </div>
     ` ;
-    // le indicamos que elemento va a ir dentro del product-list(de html)
+    
     //del producto solo quiero mostrar el nombre, del precio solo el precio, etc
     productList.appendChild(element); // a productList le agregamos un elemento HIJO appendchild
   }
