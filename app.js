@@ -23,7 +23,7 @@ class UI {
       </div>
     ` ;
     
-    productList.appendChild(element); // a productList le agregamos un elemento HIJO appendchild
+    productList.appendChild(element); 
   }
 
   resetForm(){ //quiero obtener un elemento por id : product-form y luego, quiero llamar al metodo reset, asi resetea el formulario
