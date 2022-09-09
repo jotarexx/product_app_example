@@ -26,7 +26,7 @@ class UI {
     productList.appendChild(element); 
   }
 
-  resetForm(){ //quiero obtener un elemento por id : product-form y luego, quiero llamar al metodo reset, asi resetea el formulario
+  resetForm(){ 
     document.getElementById('product-form').reset(); // resetea formulario
 
   }
