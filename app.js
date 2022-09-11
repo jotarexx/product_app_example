@@ -40,7 +40,7 @@ class UI {
   }
 }
 
-document.getElementById('product-form') //quiero OBTENER el ID llamado Product-form (este id esta en html )
+document.getElementById('product-form') 
   .addEventListener('submit', function(e) { // e: evento en Consola
     const name= document.getElementById('name').value; //quiero el elemento llamado Name y obtener su VALOR
     const price= document.getElementById('price').value; 
