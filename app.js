@@ -46,7 +46,7 @@ document.getElementById('product-form')
     const price= document.getElementById('price').value; 
     const year= document.getElementById('year').value ;
 
-    const product = new Product (name,price, year); //lo guardo en una const y crea un nuevo objeto unico,  
+    const product = new Product (name,price, year); 
    
    const ui = new UI ();
     ui.addProduct(product)
