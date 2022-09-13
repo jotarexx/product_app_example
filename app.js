@@ -27,7 +27,7 @@ class UI {
   }
 
   resetForm(){ 
-    document.getElementById('product-form').reset(); // resetea formulario
+    document.getElementById('product-form').reset(); 
 
   }
 
