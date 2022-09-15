@@ -42,7 +42,7 @@ class UI {
 
 document.getElementById('product-form') 
   .addEventListener('submit', function(e) { // e: evento en Consola
-    const name= document.getElementById('name').value; //quiero el elemento llamado Name y obtener su VALOR
+    const name= document.getElementById('name').value; 
     const price= document.getElementById('price').value; 
     const year= document.getElementById('year').value ;
 
