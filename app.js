@@ -41,7 +41,7 @@ class UI {
 }
 
 document.getElementById('product-form') 
-  .addEventListener('submit', function(e) { // e: evento en Consola
+  .addEventListener('submit', function(e) { 
     const name= document.getElementById('name').value; 
     const price= document.getElementById('price').value; 
     const year= document.getElementById('year').value ;
