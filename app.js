@@ -55,7 +55,6 @@ document.getElementById('product-form')
     e.preventDefault(); 
 });
 
-
 document.getElementById('product-list').addEventListener('click', function(e){
   console.log(e.target) // que CAPTURE (target) el elemento que hago click
 });
